@@ -1,0 +1,19 @@
+{
+  "name": "domain-match",
+  "version": "1.0.0",
+  "description": "Matching URLs against domain names",
+  "main": "index.js",
+  "scripts": {
+    "test-mocha": "mocha ./test",
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "author": "N. Palani Kumanan",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
+  }
+}
