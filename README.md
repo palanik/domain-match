@@ -2,6 +2,10 @@
 
   Check if a given url matches against simple domain name patterns.
 
+[![NPM version](https://img.shields.io/npm/v/domain-match.svg?style=flat)](https://www.npmjs.org/package/domain-match)
+[![Build Status](https://img.shields.io/travis/palanik/domain-match.svg?style=flat)](https://travis-ci.org/palanik/domain-match)
+[![Coverage Status](https://coveralls.io/repos/palanik/domain-match/badge.svg?service=github)](https://coveralls.io/github/palanik/domain-match)
+
 ## Installation
 
 Install via [npm](https://www.npmjs.org/package/domain-match)
